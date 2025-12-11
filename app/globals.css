@@ -1,0 +1,15 @@
+@import "tailwindcss";
+
+@theme inline {
+  --font-sans: 'Inter', system-ui, -apple-system, sans-serif;
+  --font-heading: 'Montserrat', system-ui, -apple-system, sans-serif;
+  --color-primary: #f97316;
+  --color-primary-dark: #ea580c;
+  --color-secondary: #1e293b;
+  --color-accent: #0ea5e9;
+  --color-light: #f8fafc;
+}
+
+body {
+  font-family: var(--font-sans);
+}
